@@ -10,7 +10,6 @@ type Props = {
 const origin = typeof window === "undefined" ? "" : window.location.origin;
 
 export const Layout: React.FC<Props> = ({ children, title }) => {
-  // console.log({ origin });
   return (
     <>
       <Head>
@@ -29,7 +28,6 @@ export const Layout: React.FC<Props> = ({ children, title }) => {
           property="og:description"
           content={`Está página é sobre ${title}`}
         />
-        {/* <meta property="og:image" content={`${origin}/image/banner.png`} /> */}
       </Head>
 
       <Navbar />
