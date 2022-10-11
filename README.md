@@ -10,7 +10,7 @@
 git clone https://github.com/Lucassocorrosilva7/Pokemon-Api.git
 ```
 
-Entrar na pasta frontend utilizando o comando:
+Entrar na pasta utilizando o comando:
 
 ```
 cd Pokemon-Api-main
